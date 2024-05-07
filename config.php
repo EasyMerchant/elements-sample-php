@@ -1,7 +1,7 @@
 <?php
 
-$api_key = "loveyoursupportYsun97jg";
-$secret_key = "loveyoursupportSYpLl1AW";
-$api_url = "http://em-api.test";
+$api_key = "{{api_key}}";
+$secret_key = "{{secret_key}}";
+$api_url = "{{api_url}}";
 
  
