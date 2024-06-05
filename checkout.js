@@ -1,6 +1,7 @@
+let elements;
 (function () {
     initialize();
-    let elements;
+    
     async function initialize() {
        const {client_token,amount} = await fetch("./create.php", {
           method: "POST",
@@ -41,6 +42,9 @@
             primaryButtonBackgroundColor: "#1757d9",
             primaryButtonHoverColor: "#3a70df",
             primaryButtonFontColor: "#ffffff",
+            secondaryButtonBackgroundColor: "#ffffff",
+            secondaryButtonHoverColor: "#1757d9",
+            secondaryButtonFontColor: "#1757d9",
             borderRadious: "8"
         }
               
@@ -72,8 +76,9 @@
          console.log("Process",event)
     });
 
+  
+  })();
     // If you have your own button , you can call this function
     function formSubmit(){
-        elements.submit();
-    }
-  })();
+     elements.submit();
+ }
