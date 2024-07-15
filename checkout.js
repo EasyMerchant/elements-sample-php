@@ -10,7 +10,7 @@ let elements;
         elements = new lyfPayCheckout(client_token);
         elements.create({
               container: 'payments',
-              environment:'local', //sandbox || production
+              environment:'sandbox', //sandbox || production
               amount:amount ,
               currency:"usd", 
               showReceipt:false, // true || false
