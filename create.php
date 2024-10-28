@@ -4,7 +4,7 @@ require_once './config.php';
 
 header('Content-Type: application/json');
 
-$amount = 109;
+$amount = 109; // you can pass your dynamic amount value here
 $amount = sprintf('%0.2f',$amount);
 $params = array(
     'amount'=>$amount
