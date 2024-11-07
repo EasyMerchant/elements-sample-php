@@ -75,13 +75,9 @@ let elements;
                console.log("Process", event)
           });
      }
-
-     // If you have your own button , you can call this function
-
 })();
 
-//
-
+// If you have your own button , you can call this function
 function formSubmit() {
      elements.submit();
 }
