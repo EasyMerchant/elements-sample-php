@@ -1,0 +1,8 @@
+
+# LC-2113: never commit credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+config.local.php
